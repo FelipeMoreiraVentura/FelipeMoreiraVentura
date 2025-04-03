@@ -3,6 +3,7 @@
 
 ### Competências
 ![HTML5](https://img.shields.io/badge/-HTML5-181717?style=flat&logo=html5)
+
 ![CSS3](https://img.shields.io/badge/-CSS3-181717?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-181717?style=flat&logo=javascript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-181717?style=flat&logo=typescript)
