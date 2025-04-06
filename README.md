@@ -18,6 +18,8 @@
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-181717?style=flat&logo=tailwind-css)
 
 ![Docker](https://img.shields.io/badge/-Docker-181717?style=flat&logo=docker)
+![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
+
 
 ---
 
