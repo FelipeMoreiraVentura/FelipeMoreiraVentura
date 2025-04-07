@@ -24,5 +24,5 @@
 ---
 
 ### Contatos
-[![Linkedin](https://img.shields.io/badge/-Felipe%20Ventura-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/seu-linkedin)]([https://www.linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/felipe-moreira-ventura-ab40b430a))
+[![Linkedin](https://img.shields.io/badge/-Felipe%20Ventura-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-moreira-ventura-ab40b430a)
 [![Gmail](https://img.shields.io/badge/-felipe@email.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:felipemoreiraventura@email.com)
