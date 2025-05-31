@@ -1,54 +1,28 @@
-# React + TypeScript + Vite
+<h1 align="center">Felipe Moreira Ventura</h1>
+<h3 align="center">Estágiario em desenvolvimento de software em Genesis Pesquisa e Desenvolvimento</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Competências
+![HTML5](https://img.shields.io/badge/-HTML5-181717?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-181717?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-181717?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-181717?style=flat&logo=typescript)
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/-React-181717?style=flat&logo=react)
+![Next.js](https://img.shields.io/badge/-Next.js-181717?style=flat&logo=next.js)
+![Flutter](https://img.shields.io/badge/-Flutter-181717?style=flat&logo=flutter)
+![Dart](https://img.shields.io/badge/-Dart-181717?style=flat&logo=dart)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Node.js](https://img.shields.io/badge/-Node.js-181717?style=flat&logo=node.js)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-181717?style=flat&logo=postgresql)
+![Python](https://img.shields.io/badge/-Python-181717?style=flat&logo=python)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind-181717?style=flat&logo=tailwind-css)
 
-## Expanding the ESLint configuration
+![Docker](https://img.shields.io/badge/-Docker-181717?style=flat&logo=docker)
+![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Contatos
+[![Linkedin](https://img.shields.io/badge/-Felipe%20Ventura-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-moreira-ventura-ab40b430a)
+[![Gmail](https://img.shields.io/badge/-felipe@email.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:felipemoreiraventura@email.com)
