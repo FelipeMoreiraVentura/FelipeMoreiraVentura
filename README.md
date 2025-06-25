@@ -20,10 +20,8 @@
 ![Docker](https://img.shields.io/badge/-Docker-181717?style=flat&logo=docker)
 ![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 ---
-<div align="center">
 ![Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&theme=radical)
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMoreiraVentura&layout=compact&theme=radical)
-</div>
 ---
 ### Contato
 [![Linkedin](https://img.shields.io/badge/-Felipe%20Ventura-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-moreira-ventura-ab40b430a)
