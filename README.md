@@ -21,7 +21,6 @@
 ![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 ---
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&show_icons=true&theme=tokyonight)
-[![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=FelipeMoreiraVentura)](https://wakatime.com/@FelipeMoreiraVentura)
 ---
 
 ### Contatos
