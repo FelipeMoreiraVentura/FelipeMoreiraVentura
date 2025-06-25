@@ -1,3 +1,5 @@
+![Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&theme=radical)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMoreiraVentura&layout=compact&theme=radical)
 <h1 align="center">Felipe Moreira Ventura</h1>
 <h3 align="center">Estágiario em desenvolvimento de software em Genesis Pesquisa e Desenvolvimento</h3>
 
