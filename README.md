@@ -21,9 +21,9 @@
 ![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 ---
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&show_icons=true&theme=tokyonight)
-![Snake animation](https://github.com/FelipeMoreiraVentura/FelipeMoreiraVentura/blob/output/github-contribution-grid-snake.svg)
+[![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=FelipeMoreiraVentura)](https://wakatime.com/@FelipeMoreiraVentura)
 ---
 
 ### Contatos
 [![Linkedin](https://img.shields.io/badge/-Felipe%20Ventura-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-moreira-ventura-ab40b430a)
-[![Gmail](https://img.shields.io/badge/-felipe@email.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:felipemoreiraventura@email.com)
+[![Gmail](https://img.shields.io/badge/-felipemoreiraventura@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:felipemoreiraventura@email.com)
