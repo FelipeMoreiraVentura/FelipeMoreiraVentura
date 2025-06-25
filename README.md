@@ -21,7 +21,7 @@
 ![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 ---
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&show_icons=true&theme=tokyonight)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=FelipeMoreiraVentura&theme=tokyonight)](https://git.io/streak-stats)
+![Snake animation](https://github.com/FelipeMoreiraVentura/FelipeMoreiraVentura/blob/output/github-contribution-grid-snake.svg)
 ---
 
 ### Contatos
