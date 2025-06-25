@@ -17,13 +17,11 @@
 ![Python](https://img.shields.io/badge/-Python-181717?style=flat&logo=python)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-181717?style=flat&logo=tailwind-css)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=felipeventuradev&show_icons=true&theme=tokyonight)
-
-
 ![Docker](https://img.shields.io/badge/-Docker-181717?style=flat&logo=docker)
 ![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 
-
+---
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&show_icons=true&theme=tokyonight)
 ---
 
 ### Contatos
