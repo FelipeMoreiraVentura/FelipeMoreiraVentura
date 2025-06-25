@@ -1,5 +1,3 @@
-![Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&theme=radical)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMoreiraVentura&layout=compact&theme=radical)
 <h1 align="center">Felipe Moreira Ventura</h1>
 <h3 align="center">Estágiario em desenvolvimento de software em Genesis Pesquisa e Desenvolvimento</h3>
 
@@ -22,9 +20,9 @@
 ![Docker](https://img.shields.io/badge/-Docker-181717?style=flat&logo=docker)
 ![Firebase](https://img.shields.io/badge/-Firebase-181717?style=flat&logo=firebase)
 ---
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&show_icons=true&theme=tokyonight)
+![Stats](https://github-readme-stats.vercel.app/api?username=FelipeMoreiraVentura&theme=radical)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMoreiraVentura&layout=compact&theme=radical)---
 ---
-
 ### Contatos
 [![Linkedin](https://img.shields.io/badge/-Felipe%20Ventura-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-moreira-ventura-ab40b430a)
 [![Gmail](https://img.shields.io/badge/-felipemoreiraventura@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:felipemoreiraventura@email.com)
