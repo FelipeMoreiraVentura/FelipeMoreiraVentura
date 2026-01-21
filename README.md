@@ -1,5 +1,5 @@
 <h1 align="center">Felipe Moreira Ventura</h1>
-<h3 align="center">Estágiario em desenvolvimento de software em Genesis Pesquisa e Desenvolvimento</h3>
+<h3 align="center">Desenvolvedor Full Stack em Genesis Pesquisa e Desenvolvimento</h3>
 
 ### Competências
 ![HTML5](https://img.shields.io/badge/-HTML5-181717?style=flat&logo=html5)
