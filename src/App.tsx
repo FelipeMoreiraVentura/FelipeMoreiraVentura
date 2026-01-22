@@ -5,12 +5,10 @@ import { Home } from './page/home'
 function App() {
   return (
     <BrowserRouter>
-      <main className='bg-gradient-to-r from-purple-950 to-blue-950'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/:info" element={<Info />} /> */}
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/:info" element={<Info />} /> */}
+      </Routes>
     </BrowserRouter>
   )
 }
