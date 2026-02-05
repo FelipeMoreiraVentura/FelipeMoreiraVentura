@@ -17,7 +17,8 @@ import { ToolCarouselCard } from './components/toolCarouselCard';
 
 export function Home() {
     const [selectedFramework, setSelectedFramework] = useState<StackKey>('node');
-    const [view, setView] = useState('TypeScript');
+    const [viewLanguage, setViewLanguage] = useState('TypeScript');
+    const [viewFrameWork, setViewFrameWork] = useState('React');
     const [index, setIndex] = useState(0);
 
     const allCardItems = [
@@ -25,7 +26,8 @@ export function Home() {
         ...Object.values(frameworksByStack).flat(),
     ];
 
-    const currentCardItems = allCardItems.find((item) => item.title === view);
+    const currentCardItemsFramework = allCardItems.find((item) => item.title === viewFrameWork);
+    const currentCardItemsLanguage = allCardItems.find((item) => item.title === viewLanguage);
 
 
     const calcAge = () => {
@@ -61,38 +63,77 @@ export function Home() {
 
             <main className="text-white">
                 {/* LINGUAGENS e FRAMEWORKS */}
-                <section id="linguagens-e-frameworks" className='flex flex-col md:flex-row p-5 gap-6 bg-gradient-to-r from-[#2e1065] to-[#020617]'>
-                    <div className="space-y-5 lg:w-1/2">
-                        <h1 className="text-3xl font-bold">Linguagens</h1>
-                        <div className="flex flex-wrap gap-5 lg:gap-8">
+                <section
+                    id="linguagens-e-frameworks"
+                    className="flex flex-col p-5 gap-2 bg-gradient-to-r from-[#2e1065] to-[#020617]"
+                >
+                    <h1 className="text-3xl font-bold">Linguagens</h1>
+
+                    <div className="flex flex-col md:flex-row">
+                        <div className="flex md:w-1/2 justify-between md:justify-start flex-wrap gap-5 lg:gap-8">
                             {Object.values(languages).map((lang) => (
-                                <CardImage active={view === lang.title} key={lang.title} src={lang.src} title={lang.title} onClick={() => setView(lang.title)} />
+                                <CardImage
+                                    active={viewLanguage === lang.title}
+                                    key={lang.title}
+                                    src={lang.src}
+                                    title={lang.title}
+                                    onClick={() => setViewLanguage(lang.title)}
+                                />
                             ))}
                         </div>
 
-                        <div className="flex flex-col md:flex-row md:gap-5 items-justify-center">
-                            <h1 className="text-3xl font-bold">Frameworks e Libs</h1>
-                            <select
-                                className="bg-gradient-to-tl to-blue-500 from-purple-600 rounded-lg text-black p-2"
-                                value={selectedFramework}
-                                onChange={(e) => setSelectedFramework(e.target.value as StackKey)}
-                            >
-                                <option value="node">NodeJs</option>
-                                <option value="python">Python</option>
-                                <option value="dart">Dart</option>
-                            </select>
-                        </div>
+                        <div className="space-y-5 px-5 md:w-1/2 justify-center">
+                            <h1 className="md:text-2xl md:mt-0 mt-5 font-bold text-center">
+                                <span className="relative inline-block">
+                                    {currentCardItemsLanguage?.title}
+                                    <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 h-[3px] w-2/3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 opacity-90" />
+                                </span>
+                            </h1>
 
-                        <div className="flex flex-wrap gap-5 lg:gap-8">
-                            {frameworksByStack[selectedFramework].map((fw) => (
-                                <CardImage active={view === fw.title} key={fw.title} src={fw.src} title={fw.title} onClick={() => setView(fw.title)} />
-                            ))}
+                            <p className="text-justify text-sm md:text-2xl">
+                                {currentCardItemsLanguage?.text}
+                            </p>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-10 px-5 md:w-1/2 justify-center">
-                        <h1 className="text-3xl font-bold text-center">{currentCardItems?.title}</h1>
-                        <img className='h-40 w-40 md:h-70 md:w-70 mx-auto' src={currentCardItems?.src} alt="" />
-                        <p className="text-justify text-sm md:text-2xl">{currentCardItems?.text}</p>
+
+                    <div className="flex flex-col md:flex-row md:gap-5 items-justify-center mt-10 ">
+                        <h1 className="text-3xl font-bold">Frameworks e Libs</h1>
+
+                        <select
+                            className="bg-gradient-to-tl to-blue-500 from-purple-600 rounded-lg text-black p-2"
+                            value={selectedFramework}
+                            onChange={(e) => setSelectedFramework(e.target.value as StackKey)}
+                        >
+                            <option value="node">NodeJs</option>
+                            <option value="python">Python</option>
+                            <option value="dart">Dart</option>
+                        </select>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row">
+                        <div className="flex md:w-1/2 justify-between md:justify-start flex-wrap gap-5 lg:gap-8">
+                            {frameworksByStack[selectedFramework].map((fw) => (
+                                <CardImage
+                                    active={viewFrameWork === fw.title}
+                                    key={fw.title}
+                                    src={fw.src}
+                                    title={fw.title}
+                                    onClick={() => setViewFrameWork(fw.title)}
+                                />
+                            ))}
+                        </div>
+                        <div className="space-y-5 md:w-1/2 justify-center">
+                            <h1 className="md:text-2xl md:mt-0 mt-5 font-bold text-center">
+                                <span className="relative inline-block">
+                                    {currentCardItemsFramework?.title}
+                                    <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 h-[3px] w-2/3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 opacity-90" />
+                                </span>
+                            </h1>
+
+                            <p className="text-justify text-sm md:text-2xl">
+                                {currentCardItemsFramework?.text}
+                            </p>
+                        </div>
                     </div>
                 </section>
 
